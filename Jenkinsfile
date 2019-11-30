@@ -12,7 +12,7 @@ pipeline {
         }
    
       stage('Hello') {
-         steps {
+         steps(maven : "Maven 3.6.3") {
             sh 'mvn test'
          }
       }
