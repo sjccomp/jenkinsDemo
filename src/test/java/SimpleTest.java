@@ -10,7 +10,7 @@ public class SimpleTest {
 		assertTrue(true);
 	}
 	@Test
-	public void testFail() {
+	public void testFai() {
 		assertTrue(false);
 	}
 
