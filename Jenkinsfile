@@ -13,6 +13,7 @@ pipeline {
         stage ('Build') {
             steps {
                 bat 'mvn test' 
+                junit 'build/reports/**/*.xml'
             }
             post {
                 success {
