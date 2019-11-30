@@ -10,7 +10,7 @@ public class SimpleTest {
 		assertTrue(true);
 	}
 	@Test
-	public void testFailTejas() {
+	public void testFailTejaschahcad() {
 		assertTrue(false);
 	}
 
