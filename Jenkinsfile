@@ -1,13 +1,11 @@
-pipeline{
- 	agent any
- 	
- 	stages{
- 		stage('testing stage'){
- 		  steps{
- 		   
- 		      'mvn test'
- 		    
- 		  }
- 		}
- 	}
+pipeline {
+   agent any
+
+   stages {
+      stage('Hello') {
+         steps {
+            echo 'Hello World'
+         }
+      }
+   }
 }
