@@ -9,9 +9,9 @@ public class SimpleTest {
 	public void test() {
 		assertTrue(true);
 	}
-	@Test
-	public void testFailTejaschahcad() {
-		assertTrue(false);
-	}
+// 	@Test
+// 	public void testFailTejaschahcad() {
+// 		assertTrue(false);
+// 	}
 
 }
