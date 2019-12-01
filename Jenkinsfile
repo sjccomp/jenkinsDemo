@@ -12,7 +12,8 @@ pipeline {
 
         stage ('Build') {
             steps {
-                bat 'mvn test' 
+                //bat 'mvn test' 
+                bat "mvn clean verify"
                 //junit 'build/surefire-reports/*.xml'
             }
             post {
